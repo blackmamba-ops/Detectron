@@ -19,7 +19,7 @@ The Enemy Aircraft Detection System is a computer vision project developed using
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/enemy-aircraft-detection.git
+git clone https://github.com/blackmamba-ops/Detectron.git
 ```
 
 2. Navigate to the project directory:
@@ -31,11 +31,7 @@ run app.py
 ## Usage
 
 1. Prepare your aerial images or video streams for detection.
-2. Run the detection script:
-
-```bash
-python detect_aircraft.py --input <input_file_or_directory> --output <output_file_or_directory>
-```
+2. Run the model script:
 
 3. View the detected enemy aircraft in the output images or video streams.
 
