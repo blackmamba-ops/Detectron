@@ -1,0 +1,13 @@
+# Train/val/test sets as 
+## 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+
+#path: ../datasets/coco128  # dataset root dir
+train: train  # train images (relative to 'path') 128 images
+val: test # val images (relative to 'path') 128 images
+# test:  # test images (optional)
+
+# Classes
+nc: 15  # number of classes
+names: ['F-22 Raptor', 'Su-57', 'F-35 Lightning II', 'J-20', 'Eurofighter Typhoon', 'Dassault Rafale', 'Saab JAS 39 Gripen', 'Mitsubishi F-2', 'Boeing F/A-18E/F Super Hornet', 'Lockheed Martin F-16 Fighting Falcon', 'Boeing F-15 Eagle', 'Mikoyan MiG-29 Fulcrum', 'Shenyang J-15', 'Dassault Mirage 2000', 'Northrop Grumman B-2 Spirit']
+
